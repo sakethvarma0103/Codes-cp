@@ -1,0 +1,11 @@
+Suppose you are designing a web browser history management system that uses a linked list to store the browsing history. Each node in the linked list represents the number of webpages visited in that month, The system stores the browsing history for 12 months.
+
+Your task is to write a function that clears the last n month data,representing the browsing history for the last 'n' months. The function should take the linked list representing the browser history and the integer 'n' as inputs and return the updated history after clearing
+
+For example, consider a web browser history linked list representing the browsing history for 12 months in chronological order:
+
+Month 1 -> Month 2 -> Month 3 -> Month 4 -> Month 5 -> Month 6 -> Month 7 -> Month 8 -> Month 9 -> Month 10 -> Month 11 -> Month 12
+
+If 'n' is 4, the function should remove the last 4 nodes from the linked list, representing the browsing history for the last 4 months (Month 9, Month 10, Month 11, and Month 12).
+
+No return type- update in the list itself

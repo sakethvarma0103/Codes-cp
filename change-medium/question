@@ -1,0 +1,6 @@
+As part of the challenge, you are presented with a linkedlist containing integers.Your task is to create a rearrange the linked list in the given order
+
+For example, consider the linked list: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
+Output =   -> 8 -> 1 -> 7 -> 2 -> 6 -> 3 -> 5 -> 4
+
+To accomplish this, you must implement a function that takes the input LL and returns the head node of the linked list. The linked list should be changed in such a way that it represents the above order

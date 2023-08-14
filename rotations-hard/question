@@ -1,0 +1,9 @@
+You are given two singly linked lists, List A and List B, each containing integer values. Your task is to find the number of rotations needed in List B to make it equivalent to List A. A rotation involves moving the last node of List B to its front repeatedly.
+
+Input:
+
+The head_a parameter is the head node of List A.
+The head_b parameter is the head node of List B.
+
+Output:
+Return an integer value representing the number of rotations needed in List B to make it equivalent to List A. If it is not possible to make both lists equivalent, return -1.

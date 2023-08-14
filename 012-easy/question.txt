@@ -1,0 +1,8 @@
+As part of the challenge, you are presented with a unique array containing only three elements: 0, 1, and 2. Your task is to create a linked list by sorting this array in ascending order.
+In Time complexity of O(n)
+
+To accomplish this, you must implement a function that takes the input array and returns the head node of the linked list. The linked list should be created in such a way that it represents the sorted order of the elements: 0, 1, and 2.
+
+Note:
+You are required to create the linked list in place, without using any additional data structures, and using only constant space.
+The order of elements in the linked list should correspond to the sorted order of the elements in the input array.

@@ -1,0 +1,11 @@
+Title: Linked List Sum Combinations
+
+Given a Double linked list, your objective is to find the number of unique ways three nodes can be selected from the list such that their sum is precisely equal to zero.
+
+Return an integer representing the number of unique ways three nodes can be selected from the linked list such that their sum is zero.
+Constraints:
+The value of each node's val lies within the range of -10^9 to 10^9.
+
+Note:
+The linked list can be empty (head is None), and in that case, return 0 as there are no nodes to select.
+The output may be large, so return the result modulo 10^9 + 7.

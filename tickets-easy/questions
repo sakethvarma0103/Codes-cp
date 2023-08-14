@@ -1,0 +1,5 @@
+You are managing the ticketing system in bookmyshow
+
+Several people waiting in queue request a certain number of tickets in each row
+You have check the availability and inform the customer whether there are seats available,if yes print true,book the seats and move to the next customer
+If seats are unaivalable , print False

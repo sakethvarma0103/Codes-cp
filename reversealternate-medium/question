@@ -1,0 +1,8 @@
+You are given a singly linked list with integer values. Your task is to reverse the nodes at odd indices and reverse the nodes at even indices of the linked list. After performing these operations, return the modified linked list.
+
+For example, consider the linked list: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
+Output :- 7 -> 8 -> 5 -> 6 -> 3 -> 4 -> 1 -> 2
+
+Note:
+The linked list will have at least two nodes to perform the operations.
+If the number of nodes in the linked list is odd, the last node should remain at its original position.

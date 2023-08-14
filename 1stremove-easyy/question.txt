@@ -1,0 +1,12 @@
+Suppose you are given a linked list that represents a sequence of operations to perform on an LL. Each node in the linked list has a numeric value indicating the number of elements to skip.The operations are as follows:
+
+If the value is 0, continue.
+If the value is positive (e.g., 2, 3, etc.), it represents skipping the next 'value' number of elements in the array.
+For example, consider the linked list: 1 -> 0 -> 2 -> 0 -> 0 -> 0 -> 1 -> 0
+
+1- 1 , so skip the next one node( value 0)
+2-2, skip the next 2 nodes( values 0,0)
+3-0 , print and continue
+4-1, skip the next one node(value -0)
+
+Output = 0

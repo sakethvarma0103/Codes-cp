@@ -1,0 +1,28 @@
+You are given a singly linked list and a positive integer k. Your task is to update each node's data value in the linked list as the product of the next k nodes (including the current node).
+
+
+Input:
+head: The head of the singly linked list.
+k: A positive integer (1 <= k <= n), where n is the number of nodes in the linked list.
+Output:
+The function should update each node's val (data value) in the linked list according to the product of the next k nodes.
+Example:
+Suppose the original linked list is: 1 -> 2 -> 3 -> 4 -> 5, and k = 3.
+
+Calling the function update_product_of_next_k_nodes with the above linked list should modify it to: 
+24 -> 60 -> 20 -> 10 -> 6.
+
+Explanation:
+
+For the first node (value = 1), the product of the next 3 nodes (2 * 3 * 4) is 24.
+For the second node (value = 2), the product of the next 3 nodes (3 * 4 * 5) is 60.
+For the third node (value = 3), the product of the next 3 nodes (4 * 5 * 1) is 20.
+For the fourth node (value = 4), the product of the next 3 nodes (5 * 1 * 2) is 10.
+For the fifth node (value = 5), the product of the next 3 nodes is (1 * 2 *3) is 6
+
+The function should be able to handle various cases, including empty linked lists and situations where the number of remaining nodes is less than k.
+
+Time complexity = O(k*n)
+Space complexity=O(n)
+
+

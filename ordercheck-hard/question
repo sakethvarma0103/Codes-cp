@@ -1,0 +1,9 @@
+You are a member of the black squad,Vikram's guy in the chair.
+You have to receive messages from your sources and convey it to Vikram
+
+But due to a bug in the software, several other false agencies send you messages so as to misguide Vikram and divert him from the mission
+
+The message comes as a data in single linked list,which you have to verify whether the data in the linked list is in a perfect sequence that you and the source have, for you to send it to Vikkram
+
+Your goal is to implement a function that takes the linked list as input and returns True if the elements are in the specified sequence, and False otherwise.
+
